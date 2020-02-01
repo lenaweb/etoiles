@@ -1,0 +1,133 @@
+@font-face {
+	font-family: "titrepol";
+	src: url("titrepol.otf");
+}
+
+@font-face
+{
+	font-family: "texte";
+	src: url("texte.otf");
+}
+
+
+body {
+	color: white;
+	font-family: "texte";
+	width: 95%;
+	background-color: lightblue;
+	background-image:url(fond.jpg);
+}
+
+h1 {
+	font-family: "titrepol", Arial, serif;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+}
+
+p, a {
+	font-size: 1.3em;
+}
+
+
+
+.white 
+{
+	border: solid white 2px;
+	color: white;
+	font-size: 2em;
+	font-family: "texte", Arial, serif;
+	margin: 20px;
+	padding: 12px;
+}
+
+a:hover
+{
+	font-size: 2.1em;
+	color:yellow;
+}
+
+h2
+{
+	font-size: 3em;
+	font-family: "texte", Arial, serif;
+	margin: 20px;
+	padding: 12px;
+}
+.centre
+{
+	text-align: center;
+	font-size:5em;
+	font-family: "titrepol", Arial, serif;
+	margin: 20px;
+	padding: 12px;
+}
+.pink
+{
+	border: solid white 0px;
+	font-size: 2em;
+	font-family: "texte", Arial, serif;
+	margin: 30px;
+	padding: 12px;
+}
+
+.gif
+{
+	margin-top: 22px;
+	border: 2px white outset;
+	border-radius: 10px;
+
+}
+
+.profil
+{
+	font-size: 1.3em;
+	color: white;
+	font-weight: normal;
+	padding: 12px;
+	border: 1px white solid;
+	background-color: black;
+	box-shadow: 1px 1px 1px black;
+	margin: auto;
+	width: 25%;
+}
+
+.des
+{
+	font-size: 1.3em;
+	color: white;
+	font-weight: normal;
+	padding: 12px;
+	border: 1px white solid;
+	background-color: black;
+	box-shadow: 1px 1px 1px black;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 60%;
+}
+
+.forum
+{
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	margin-top: 40px;
+	flex-wrap: wrap;
+	align-content: space-around;
+	padding: 20px;
+}
+
+li
+{
+	padding: 10px;
+	margin: 10px;
+}
+
+.displayed
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
